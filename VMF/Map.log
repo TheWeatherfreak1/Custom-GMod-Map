@@ -922,3 +922,123 @@ zero area child patch
 191665 patches after subdivision
 1 direct lights
 0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Counter-Strike Source\cstrike\materials
+Loading C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.prt...Building visibility clusters...
+done (0)
+material "skybox/urbannightstormhdrrt" not found.
+Can't load skybox file skybox/urbannightstormhdr to build the default cubemap!
+Can't load skybox file skybox/urbannightstormhdr to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (33804 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 409 texinfos to 255
+Reduced 4 texdatas to 4 (74 bytes to 74)
+Writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
+reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.prt
+ 339 portalclusters
+ 933 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 283 visible clusters (0.32%)
+Total clusters visible: 88366
+Average clusters visible: 260
+Building PAS...
+Average clusters audible: 338
+visdatasize:31924  compressed from 32544
+writing c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
+1 minute, 38 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
+3097 faces
+2380426 square feet [342781440.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3097 patches before subdivision
+zero area child patch
+191665 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Counter-Strike Source\cstrike\materials
+Loading C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.prt...Building visibility clusters...
+done (0)
+material "skybox/urbannightstormhdrrt" not found.
+Can't load skybox file skybox/urbannightstormhdr to build the default cubemap!
+Can't load skybox file skybox/urbannightstormhdr to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (33820 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 412 texinfos to 255
+Reduced 5 texdatas to 5 (94 bytes to 94)
+Writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
+reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.prt
+ 339 portalclusters
+ 932 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 284 visible clusters (0.32%)
+Total clusters visible: 88375
+Average clusters visible: 260
+Building PAS...
+Average clusters audible: 338
+visdatasize:31924  compressed from 32544
+writing c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
+1 minute, 51 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
+3098 faces
+2380426 square feet [342781440.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3098 patches before subdivision
+zero area child patch
+191664 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
