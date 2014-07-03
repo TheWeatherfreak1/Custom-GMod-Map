@@ -2,16 +2,20 @@
 
 
 materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Source SDK Base 2013 Multiplayer\customConfig\materials
-Loading C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.vmf
+Loading C:\Users\Jackson\Desktop\Map.vmf
 Can't find surfaceprop dirt for material NATURE/GRASSFLOOR002A, using default
+Can't find surfaceprop metalvent for material METAL/METALWALL045A, using default
 Can't find surfaceprop concrete for material DEV/GRAYGRID, using default
-Can't find surfaceprop brick for material BRICK/BRICKWALL031A, using default
+Can't find surfaceprop wood for material WOOD/WOODFLOOR006B, using default
+Can't find surfaceprop glass for material STOREFRONT_TEMPLATE/STOREFRONT_TEMPLATE001D, using default
+Can't find surfaceprop brick for material BRICK/BRICKWALL003A_CONSTRUCT, using default
+Can't find surfaceprop metal for material METAL/METALLADDER001A, using default
 Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\source sdk base 2013 multiplayer\customconfig\gameinfo.txt
 fixing up env_cubemap materials on brush sides...
 0...1...2...3...4...5...6...7...8...9...10**** leaked ****
-Entity env_sun (4748.00 4704.00 4236.00) leaked!
+Entity info_player_start (1200.00 -48.00 -20.00) leaked!
 
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 -1024.0 2100.0)
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 -1024.0 900.0)
 Leaf 0 contents: CONTENTS_SOLID 
 Leaf 1 contents: 
 viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
@@ -20,7 +24,7 @@ Check for a huge brush enclosing the coordinates above that has contents CONTENT
 Candidate brush IDs: 
 
 
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 -6.0 4214.0)
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 -12.0 1820.0)
 Leaf 0 contents: 
 Leaf 1 contents: CONTENTS_SOLID 
 viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
@@ -29,7 +33,7 @@ Check for a huge brush enclosing the coordinates above that has contents CONTENT
 Candidate brush IDs: 
 
 
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 -6.0 -14.0)
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 -12.0 -20.0)
 Leaf 0 contents: 
 Leaf 1 contents: CONTENTS_SOLID 
 viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
@@ -38,7 +42,7 @@ Check for a huge brush enclosing the coordinates above that has contents CONTENT
 Candidate brush IDs: 
 
 
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 -518.0 2100.0)
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 -524.0 900.0)
 Leaf 0 contents: 
 Leaf 1 contents: CONTENTS_SOLID 
 viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
@@ -47,7 +51,7 @@ Check for a huge brush enclosing the coordinates above that has contents CONTENT
 Candidate brush IDs: 
 
 
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-518.0 0.0 2100.0)
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-524.0 0.0 900.0)
 Leaf 0 contents: 
 Leaf 1 contents: CONTENTS_SOLID 
 viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
@@ -56,7 +60,7 @@ Check for a huge brush enclosing the coordinates above that has contents CONTENT
 Candidate brush IDs: 
 
 
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-6.0 0.0 -20.0)
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-12.0 0.0 -20.0)
 Leaf 0 contents: 
 Leaf 1 contents: CONTENTS_SOLID 
 viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
@@ -65,7 +69,7 @@ Check for a huge brush enclosing the coordinates above that has contents CONTENT
 Candidate brush IDs: 
 
 
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-6.0 0.0 4214.0)
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-12.0 0.0 1820.0)
 Leaf 0 contents: 
 Leaf 1 contents: CONTENTS_SOLID 
 viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
@@ -74,7 +78,7 @@ Check for a huge brush enclosing the coordinates above that has contents CONTENT
 Candidate brush IDs: 
 
 
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1024.0 -512.0 2100.0)
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1024.0 -512.0 900.0)
 Leaf 0 contents: CONTENTS_SOLID 
 Leaf 1 contents: 
 viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
@@ -85,6 +89,9 @@ Candidate brush IDs:
 *** Suppressing further FindPortalSide errors.... ***
 Processing areas...done (0)
 Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
 FixTjuncs...
 PruneNodes...
 WriteBSP...
@@ -96,35 +103,34 @@ Finding displacement neighbors...
 Finding lightmap sample positions...
 Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
 Building Physics collision data...
-done (0) (30465 bytes)
+done (0) (20561 bytes)
 Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
 Compacting texture/material tables...
-Reduced 383 texinfos to 285
-Reduced 3 texdatas to 3 (55 bytes to 55)
-Writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.bsp
+Reduced 301 texinfos to 200
+Reduced 9 texdatas to 7 (263 bytes to 170)
+Writing C:\Users\Jackson\Desktop\Map.bsp
 0 seconds elapsed
 
 
 
 8 threads
-reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.prt
-LoadPortals: couldn't read c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.prt
+reading c:\users\jackson\desktop\Map.bsp
+reading c:\users\jackson\desktop\Map.prt
+LoadPortals: couldn't read c:\users\jackson\desktop\Map.prt
 
 
 
 Could not find lights.rad in lights.rad.
 Trying VRAD BIN directory instead...
 Warning: Couldn't open texlight file c:\program files (x86)\steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
-Loading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
+Loading c:\users\jackson\desktop\Map.bsp
 No vis information, direct lighting only.
-6072 faces
-1 degenerate faces
-4712231 square feet [678561280.00 square inches]
+1167 faces
+454642 square feet [65468520.00 square inches]
 0 Displacements
 0 Square Feet [0.00 Square Inches]
 2 direct lights
-0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.2000 sec>
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0143 sec>
 0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
 0 of 0 (0% of) surface lights went in leaf ambient cubes.
 0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
@@ -133,145 +139,125 @@ Ready to Finish
 Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
 ------------       ---------------  ---------------  -------- 
 models                   1/1024           48/49152    ( 0.1%) 
-brushes                 81/8192          972/98304    ( 1.0%) 
-brushsides             753/65536        6024/524288   ( 1.1%) 
-planes                 868/65536       17360/1310720  ( 1.3%) 
-vertexes              6501/65536       78012/786432   ( 9.9%) 
-nodes                 1101/65536       35232/2097152  ( 1.7%) 
-texinfos               285/12288       20520/884736   ( 2.3%) 
-texdata                  3/2048           96/65536    ( 0.1%) 
+brushes                 53/8192          636/98304    ( 0.6%) 
+brushsides             612/65536        4896/524288   ( 0.9%) 
+planes                 820/65536       16400/1310720  ( 1.3%) 
+vertexes              1341/65536       16092/786432   ( 2.0%) 
+nodes                  591/65536       18912/2097152  ( 0.9%) 
+texinfos               200/12288       14400/884736   ( 1.6%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
 dispinfos                0/0               0/0        ( 0.0%) 
 disp_verts               0/0               0/0        ( 0.0%) 
 disp_tris                0/0               0/0        ( 0.0%) 
 disp_lmsamples           0/0               0/0        ( 0.0%) 
-faces                 6072/65536      340032/3670016  ( 9.3%) 
+faces                 1167/65536       65352/3670016  ( 1.8%) 
 hdr faces                0/65536           0/3670016  ( 0.0%) 
-origfaces              360/65536       20160/3670016  ( 0.5%) 
-leaves                1103/65536       35296/2097152  ( 1.7%) 
-leaffaces             6903/65536       13806/131072   (10.5%) 
-leafbrushes            423/65536         846/131072   ( 0.6%) 
-areas                    2/256            16/2048     ( 0.8%) 
-surfedges            27318/512000     109272/2048000  ( 5.3%) 
-edges                13875/256000      55500/1024000  ( 5.4%) 
+origfaces              229/65536       12824/3670016  ( 0.3%) 
+leaves                 593/65536       18976/2097152  ( 0.9%) 
+leaffaces             1853/65536        3706/131072   ( 2.8%) 
+leafbrushes            286/65536         572/131072   ( 0.4%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             6548/512000      26192/2048000  ( 1.3%) 
+edges                 3605/256000      14420/1024000  ( 1.4%) 
 LDR worldlights          2/8192          176/720896   ( 0.0%) 
 HDR worldlights          0/8192            0/720896   ( 0.0%) 
 leafwaterdata            0/32768           0/393216   ( 0.0%) 
-waterstrips            207/32768        2070/327680   ( 0.6%) 
+waterstrips            137/32768        1370/327680   ( 0.4%) 
 waterverts               0/65536           0/786432   ( 0.0%) 
-waterindices          2910/65536        5820/131072   ( 4.4%) 
+waterindices          2184/65536        4368/131072   ( 3.3%) 
 cubemapsamples           0/1024            0/16384    ( 0.0%) 
 overlays                 0/512             0/180224   ( 0.0%) 
-LDR lightdata         [variable]    11924072/0        ( 0.0%) 
+LDR lightdata         [variable]     3455332/0        ( 0.0%) 
 HDR lightdata         [variable]           0/0        ( 0.0%) 
 visdata               [variable]           0/16777216 ( 0.0%) 
-entdata               [variable]         911/393216   ( 0.2%) 
-LDR ambient table     1103/65536        4412/262144   ( 1.7%) 
-HDR ambient table     1103/65536        4412/262144   ( 1.7%) 
-LDR leaf ambient      4362/65536      122136/1835008  ( 6.7%) 
-HDR leaf ambient      1103/65536       30884/1835008  ( 1.7%) 
+entdata               [variable]         763/393216   ( 0.2%) 
+LDR ambient table      593/65536        2372/262144   ( 0.9%) 
+HDR ambient table      593/65536        2372/262144   ( 0.9%) 
+LDR leaf ambient      1179/65536       33012/1835008  ( 1.8%) 
+HDR leaf ambient       593/65536       16604/1835008  ( 0.9%) 
 occluders                0/0               0/0        ( 0.0%) 
 occluder polygons        0/0               0/0        ( 0.0%) 
 occluder vert ind        0/0               0/0        ( 0.0%) 
 detail props          [variable]           1/12       ( 8.3%) 
 static props          [variable]           1/12       ( 8.3%) 
-pakfile               [variable]          54/0        ( 0.0%) 
-physics               [variable]       30465/4194304  ( 0.7%) 
+pakfile               [variable]         699/0        ( 0.0%) 
+physics               [variable]       20561/4194304  ( 0.5%) 
 physics terrain       [variable]           2/1048576  ( 0.0%) 
 
 Level flags = 0
 
-Total triangle count: 13734
-Writing c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-28 seconds elapsed
+Total triangle count: 3298
+Writing c:\users\jackson\desktop\Map.bsp
+5 seconds elapsed
 
 
 
 materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Source SDK Base 2013 Multiplayer\customConfig\materials
 Loading C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.vmf
 Can't find surfaceprop dirt for material NATURE/GRASSFLOOR002A, using default
+Can't find surfaceprop metalvent for material METAL/METALWALL045A, using default
 Can't find surfaceprop concrete for material DEV/GRAYGRID, using default
-Can't find surfaceprop brick for material BRICK/BRICKWALL031A, using default
+Can't find surfaceprop wood for material WOOD/WOODFLOOR006B, using default
+Can't find surfaceprop glass for material STOREFRONT_TEMPLATE/STOREFRONT_TEMPLATE001D, using default
+Can't find surfaceprop brick for material BRICK/BRICKWALL003A_CONSTRUCT, using default
+Can't find surfaceprop metal for material METAL/METALLADDER001A, using default
 Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\source sdk base 2013 multiplayer\customconfig\gameinfo.txt
 fixing up env_cubemap materials on brush sides...
-0...1...2...3...4...5...6...7...8...9...10**** leaked ****
-
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 -1024.0 2100.0)
-Leaf 0 contents: CONTENTS_SOLID 
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (371.1 2132.0 588.0)
+Leaf 0 contents: CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
 Leaf 1 contents: 
-viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
-This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
-Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
-Candidate brush IDs: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 90: 
 
 
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 -6.0 4214.0)
-Leaf 0 contents: 
-Leaf 1 contents: CONTENTS_SOLID 
-viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
-This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
-Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
-Candidate brush IDs: 
-
-
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 -6.0 -14.0)
-Leaf 0 contents: 
-Leaf 1 contents: CONTENTS_SOLID 
-viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
-This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
-Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
-Candidate brush IDs: 
-
-
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 -518.0 2100.0)
-Leaf 0 contents: 
-Leaf 1 contents: CONTENTS_SOLID 
-viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
-This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
-Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
-Candidate brush IDs: 
-
-
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-518.0 0.0 2100.0)
-Leaf 0 contents: 
-Leaf 1 contents: CONTENTS_SOLID 
-viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
-This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
-Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
-Candidate brush IDs: 
-
-
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-6.0 0.0 -20.0)
-Leaf 0 contents: 
-Leaf 1 contents: CONTENTS_SOLID 
-viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
-This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
-Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
-Candidate brush IDs: 
-
-
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-6.0 0.0 4214.0)
-Leaf 0 contents: 
-Leaf 1 contents: CONTENTS_SOLID 
-viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
-This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
-Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
-Candidate brush IDs: 
-
-
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1024.0 -512.0 2100.0)
-Leaf 0 contents: CONTENTS_SOLID 
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (371.1 2132.0 629.9)
+Leaf 0 contents: CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
 Leaf 1 contents: 
-viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
-This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
-Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
-Candidate brush IDs: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 90: 
 
-*** Suppressing further FindPortalSide errors.... ***
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (370.9 2131.9 608.9)
+Leaf 0 contents: CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_GRATE CONTENTS_TRANSLUCENT CONTENTS_LADDER 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 90: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (371.1 2132.0 102.0)
+Leaf 0 contents: CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 90: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (370.9 2131.9 105.0)
+Leaf 0 contents: CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_GRATE CONTENTS_TRANSLUCENT CONTENTS_LADDER 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 90: 
+
 Processing areas...done (0)
 Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
 FixTjuncs...
 PruneNodes...
 WriteBSP...
+done (0)
+writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.prt...Building visibility clusters...
 done (0)
 material "skybox/urbannightstormhdrrt" not found.
 Can't load skybox file skybox/urbannightstormhdr to build the default cubemap!
@@ -280,20 +266,29 @@ Finding displacement neighbors...
 Finding lightmap sample positions...
 Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
 Building Physics collision data...
-done (0) (30465 bytes)
+done (0) (20561 bytes)
 Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
 Compacting texture/material tables...
-Reduced 383 texinfos to 285
-Reduced 3 texdatas to 3 (55 bytes to 55)
+Reduced 301 texinfos to 176
+Reduced 9 texdatas to 7 (263 bytes to 170)
 Writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.bsp
-1 second elapsed
+0 seconds elapsed
 
 
 
 8 threads
 reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
 reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.prt
-LoadPortals: couldn't read c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.prt
+ 356 portalclusters
+1167 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 186 visible clusters (0.17%)
+Total clusters visible: 106406
+Average clusters visible: 298
+Building PAS...
+Average clusters audible: 356
+visdatasize:34744  compressed from 34176
+writing c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
+9 seconds elapsed
 
 
 
@@ -301,14 +296,18 @@ Could not find lights.rad in lights.rad.
 Trying VRAD BIN directory instead...
 Warning: Couldn't open texlight file c:\program files (x86)\steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
 Loading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-No vis information, direct lighting only.
-6072 faces
-1 degenerate faces
-4712231 square feet [678561280.00 square inches]
+812 faces
+246450 square feet [35488816.00 square inches]
 0 Displacements
 0 Square Feet [0.00 Square Inches]
-0 direct lights
-0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.2030 sec>
+812 patches before subdivision
+zero area child patch
+25854 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5643389, max 626
+transfer lists:  43.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0103 sec>
 0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
 0 of 0 (0% of) surface lights went in leaf ambient cubes.
 0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
@@ -317,147 +316,125 @@ Ready to Finish
 Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
 ------------       ---------------  ---------------  -------- 
 models                   1/1024           48/49152    ( 0.1%) 
-brushes                 81/8192          972/98304    ( 1.0%) 
-brushsides             753/65536        6024/524288   ( 1.1%) 
-planes                 868/65536       17360/1310720  ( 1.3%) 
-vertexes              6501/65536       78012/786432   ( 9.9%) 
-nodes                 1101/65536       35232/2097152  ( 1.7%) 
-texinfos               285/12288       20520/884736   ( 2.3%) 
-texdata                  3/2048           96/65536    ( 0.1%) 
+brushes                 53/8192          636/98304    ( 0.6%) 
+brushsides             612/65536        4896/524288   ( 0.9%) 
+planes                 820/65536       16400/1310720  ( 1.3%) 
+vertexes               969/65536       11628/786432   ( 1.5%) 
+nodes                  489/65536       15648/2097152  ( 0.7%) 
+texinfos               176/12288       12672/884736   ( 1.4%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
 dispinfos                0/0               0/0        ( 0.0%) 
 disp_verts               0/0               0/0        ( 0.0%) 
 disp_tris                0/0               0/0        ( 0.0%) 
 disp_lmsamples           0/0               0/0        ( 0.0%) 
-faces                 6072/65536      340032/3670016  ( 9.3%) 
+faces                  812/65536       45472/3670016  ( 1.2%) 
 hdr faces                0/65536           0/3670016  ( 0.0%) 
-origfaces              360/65536       20160/3670016  ( 0.5%) 
-leaves                1103/65536       35296/2097152  ( 1.7%) 
-leaffaces             6903/65536       13806/131072   (10.5%) 
-leafbrushes            423/65536         846/131072   ( 0.6%) 
-areas                    1/256             8/2048     ( 0.4%) 
-surfedges            27318/512000     109272/2048000  ( 5.3%) 
-edges                13875/256000      55500/1024000  ( 5.4%) 
-LDR worldlights          0/8192            0/720896   ( 0.0%) 
+origfaces              200/65536       11200/3670016  ( 0.3%) 
+leaves                 491/65536       15712/2097152  ( 0.7%) 
+leaffaces             1586/65536        3172/131072   ( 2.4%) 
+leafbrushes            289/65536         578/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             4756/512000      19024/2048000  ( 0.9%) 
+edges                 2712/256000      10848/1024000  ( 1.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
 HDR worldlights          0/8192            0/720896   ( 0.0%) 
 leafwaterdata            0/32768           0/393216   ( 0.0%) 
-waterstrips            207/32768        2070/327680   ( 0.6%) 
+waterstrips             92/32768         920/327680   ( 0.3%) 
 waterverts               0/65536           0/786432   ( 0.0%) 
-waterindices          2910/65536        5820/131072   ( 4.4%) 
+waterindices          1587/65536        3174/131072   ( 2.4%) 
 cubemapsamples           0/1024            0/16384    ( 0.0%) 
 overlays                 0/512             0/180224   ( 0.0%) 
-LDR lightdata         [variable]    11924072/0        ( 0.0%) 
+LDR lightdata         [variable]     1933772/0        ( 0.0%) 
 HDR lightdata         [variable]           0/0        ( 0.0%) 
-visdata               [variable]           0/16777216 ( 0.0%) 
-entdata               [variable]         337/393216   ( 0.1%) 
-LDR ambient table     1103/65536        4412/262144   ( 1.7%) 
-HDR ambient table     1103/65536        4412/262144   ( 1.7%) 
-LDR leaf ambient       700/65536       19600/1835008  ( 1.1%) 
-HDR leaf ambient      1103/65536       30884/1835008  ( 1.7%) 
+visdata               [variable]       34744/16777216 ( 0.2%) 
+entdata               [variable]         756/393216   ( 0.2%) 
+LDR ambient table      491/65536        1964/262144   ( 0.7%) 
+HDR ambient table      491/65536        1964/262144   ( 0.7%) 
+LDR leaf ambient       356/65536        9968/1835008  ( 0.5%) 
+HDR leaf ambient       491/65536       13748/1835008  ( 0.7%) 
 occluders                0/0               0/0        ( 0.0%) 
 occluder polygons        0/0               0/0        ( 0.0%) 
 occluder vert ind        0/0               0/0        ( 0.0%) 
 detail props          [variable]           1/12       ( 8.3%) 
 static props          [variable]           1/12       ( 8.3%) 
-pakfile               [variable]          54/0        ( 0.0%) 
-physics               [variable]       30465/4194304  ( 0.7%) 
+pakfile               [variable]         699/0        ( 0.0%) 
+physics               [variable]       20561/4194304  ( 0.5%) 
 physics terrain       [variable]           2/1048576  ( 0.0%) 
 
 Level flags = 0
 
-Total triangle count: 13734
+Total triangle count: 2332
 Writing c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-11 seconds elapsed
+8 seconds elapsed
 
 
 
 materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Source SDK Base 2013 Multiplayer\customConfig\materials
 Loading C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.vmf
 Can't find surfaceprop dirt for material NATURE/GRASSFLOOR002A, using default
+Can't find surfaceprop metalvent for material METAL/METALWALL045A, using default
 Can't find surfaceprop concrete for material DEV/GRAYGRID, using default
 Can't find surfaceprop wood for material WOOD/WOODFLOOR006B, using default
-Can't find surfaceprop brick for material BRICK/BRICKWALL034A, using default
+Can't find surfaceprop glass for material STOREFRONT_TEMPLATE/STOREFRONT_TEMPLATE001D, using default
+Can't find surfaceprop brick for material BRICK/BRICKWALL003A_CONSTRUCT, using default
+Can't find surfaceprop metal for material METAL/METALLADDER001A, using default
 Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\source sdk base 2013 multiplayer\customconfig\gameinfo.txt
 fixing up env_cubemap materials on brush sides...
-0...1...2...3...4...5...6...7...8...9...10**** leaked ****
-Entity info_player_start (4724.00 -36.00 -8.00) leaked!
-
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 -1024.0 2100.0)
-Leaf 0 contents: CONTENTS_SOLID 
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (371.1 2132.0 588.0)
+Leaf 0 contents: CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
 Leaf 1 contents: 
-viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
-This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
-Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
-Candidate brush IDs: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 90: 
 
 
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 -6.0 4214.0)
-Leaf 0 contents: 
-Leaf 1 contents: CONTENTS_SOLID 
-viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
-This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
-Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
-Candidate brush IDs: 
-
-
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 -6.0 -14.0)
-Leaf 0 contents: 
-Leaf 1 contents: CONTENTS_SOLID 
-viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
-This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
-Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
-Candidate brush IDs: 
-
-
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 -518.0 2100.0)
-Leaf 0 contents: 
-Leaf 1 contents: CONTENTS_SOLID 
-viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
-This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
-Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
-Candidate brush IDs: 
-
-
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-518.0 0.0 2100.0)
-Leaf 0 contents: 
-Leaf 1 contents: CONTENTS_SOLID 
-viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
-This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
-Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
-Candidate brush IDs: 
-
-
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-6.0 0.0 -20.0)
-Leaf 0 contents: 
-Leaf 1 contents: CONTENTS_SOLID 
-viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
-This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
-Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
-Candidate brush IDs: 
-
-
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-6.0 0.0 4214.0)
-Leaf 0 contents: 
-Leaf 1 contents: CONTENTS_SOLID 
-viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
-This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
-Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
-Candidate brush IDs: 
-
-
-FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1024.0 -512.0 2100.0)
-Leaf 0 contents: CONTENTS_SOLID 
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (371.1 2132.0 629.9)
+Leaf 0 contents: CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
 Leaf 1 contents: 
-viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
-This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
-Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
-Candidate brush IDs: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 90: 
 
-*** Suppressing further FindPortalSide errors.... ***
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (370.9 2131.9 608.9)
+Leaf 0 contents: CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_GRATE CONTENTS_TRANSLUCENT CONTENTS_LADDER 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 90: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (371.1 2132.0 102.0)
+Leaf 0 contents: CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 90: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (370.9 2131.9 105.0)
+Leaf 0 contents: CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_GRATE CONTENTS_TRANSLUCENT CONTENTS_LADDER 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 90: 
+
 Processing areas...done (0)
 Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
 FixTjuncs...
 PruneNodes...
 WriteBSP...
+done (0)
+writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.prt...Building visibility clusters...
 done (0)
 material "skybox/urbannightstormhdrrt" not found.
 Can't load skybox file skybox/urbannightstormhdr to build the default cubemap!
@@ -466,20 +443,29 @@ Finding displacement neighbors...
 Finding lightmap sample positions...
 Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
 Building Physics collision data...
-done (0) (33769 bytes)
+done (0) (20561 bytes)
 Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
 Compacting texture/material tables...
-Reduced 424 texinfos to 276
-Reduced 5 texdatas to 4 (108 bytes to 74)
+Reduced 301 texinfos to 176
+Reduced 9 texdatas to 7 (263 bytes to 170)
 Writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.bsp
-1 second elapsed
+0 seconds elapsed
 
 
 
 8 threads
 reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
 reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.prt
-LoadPortals: couldn't read c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.prt
+ 356 portalclusters
+1167 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 186 visible clusters (0.17%)
+Total clusters visible: 106406
+Average clusters visible: 298
+Building PAS...
+Average clusters audible: 356
+visdatasize:34744  compressed from 34176
+writing c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
+9 seconds elapsed
 
 
 
@@ -487,13 +473,23 @@ Could not find lights.rad in lights.rad.
 Trying VRAD BIN directory instead...
 Warning: Couldn't open texlight file c:\program files (x86)\steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
 Loading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-No vis information, direct lighting only.
-6116 faces
-4720444 square feet [679744000.00 square inches]
+812 faces
+246450 square feet [35488816.00 square inches]
 0 Displacements
 0 Square Feet [0.00 Square Inches]
-1 direct lights
-0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.1984 sec>
+812 patches before subdivision
+zero area child patch
+25854 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5643389, max 626
+transfer lists:  43.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2554, 2668, 2336)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(374, 409, 304)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(57, 66, 43)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(9, 10, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0103 sec>
 0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
 0 of 0 (0% of) surface lights went in leaf ambient cubes.
 0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
@@ -502,69 +498,120 @@ Ready to Finish
 Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
 ------------       ---------------  ---------------  -------- 
 models                   1/1024           48/49152    ( 0.1%) 
-brushes                 90/8192         1080/98304    ( 1.1%) 
-brushsides             856/65536        6848/524288   ( 1.3%) 
-planes                 890/65536       17800/1310720  ( 1.4%) 
-vertexes              6570/65536       78840/786432   (10.0%) 
-nodes                 1148/65536       36736/2097152  ( 1.8%) 
-texinfos               276/12288       19872/884736   ( 2.2%) 
-texdata                  4/2048          128/65536    ( 0.2%) 
+brushes                 53/8192          636/98304    ( 0.6%) 
+brushsides             612/65536        4896/524288   ( 0.9%) 
+planes                 820/65536       16400/1310720  ( 1.3%) 
+vertexes               969/65536       11628/786432   ( 1.5%) 
+nodes                  489/65536       15648/2097152  ( 0.7%) 
+texinfos               176/12288       12672/884736   ( 1.4%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
 dispinfos                0/0               0/0        ( 0.0%) 
 disp_verts               0/0               0/0        ( 0.0%) 
 disp_tris                0/0               0/0        ( 0.0%) 
 disp_lmsamples           0/0               0/0        ( 0.0%) 
-faces                 6116/65536      342496/3670016  ( 9.3%) 
+faces                  812/65536       45472/3670016  ( 1.2%) 
 hdr faces                0/65536           0/3670016  ( 0.0%) 
-origfaces              364/65536       20384/3670016  ( 0.6%) 
-leaves                1150/65536       36800/2097152  ( 1.8%) 
-leaffaces             6942/65536       13884/131072   (10.6%) 
-leafbrushes            479/65536         958/131072   ( 0.7%) 
-areas                    3/256            24/2048     ( 1.2%) 
-surfedges            27479/512000     109916/2048000  ( 5.4%) 
-edges                14015/256000      56060/1024000  ( 5.5%) 
-LDR worldlights          1/8192           88/720896   ( 0.0%) 
+origfaces              200/65536       11200/3670016  ( 0.3%) 
+leaves                 491/65536       15712/2097152  ( 0.7%) 
+leaffaces             1586/65536        3172/131072   ( 2.4%) 
+leafbrushes            289/65536         578/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             4756/512000      19024/2048000  ( 0.9%) 
+edges                 2712/256000      10848/1024000  ( 1.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
 HDR worldlights          0/8192            0/720896   ( 0.0%) 
 leafwaterdata            0/32768           0/393216   ( 0.0%) 
-waterstrips            202/32768        2020/327680   ( 0.6%) 
+waterstrips             92/32768         920/327680   ( 0.3%) 
 waterverts               0/65536           0/786432   ( 0.0%) 
-waterindices          2832/65536        5664/131072   ( 4.3%) 
+waterindices          1587/65536        3174/131072   ( 2.4%) 
 cubemapsamples           0/1024            0/16384    ( 0.0%) 
 overlays                 0/512             0/180224   ( 0.0%) 
-LDR lightdata         [variable]    12134328/0        ( 0.0%) 
+LDR lightdata         [variable]     1933772/0        ( 0.0%) 
 HDR lightdata         [variable]           0/0        ( 0.0%) 
-visdata               [variable]           0/16777216 ( 0.0%) 
-entdata               [variable]         498/393216   ( 0.1%) 
-LDR ambient table     1150/65536        4600/262144   ( 1.8%) 
-HDR ambient table     1150/65536        4600/262144   ( 1.8%) 
-LDR leaf ambient      1234/65536       34552/1835008  ( 1.9%) 
-HDR leaf ambient      1150/65536       32200/1835008  ( 1.8%) 
+visdata               [variable]       34744/16777216 ( 0.2%) 
+entdata               [variable]         812/393216   ( 0.2%) 
+LDR ambient table      491/65536        1964/262144   ( 0.7%) 
+HDR ambient table      491/65536        1964/262144   ( 0.7%) 
+LDR leaf ambient      2019/65536       56532/1835008  ( 3.1%) 
+HDR leaf ambient       491/65536       13748/1835008  ( 0.7%) 
 occluders                0/0               0/0        ( 0.0%) 
 occluder polygons        0/0               0/0        ( 0.0%) 
 occluder vert ind        0/0               0/0        ( 0.0%) 
 detail props          [variable]           1/12       ( 8.3%) 
 static props          [variable]           1/12       ( 8.3%) 
-pakfile               [variable]         339/0        ( 0.0%) 
-physics               [variable]       33769/4194304  ( 0.8%) 
+pakfile               [variable]         699/0        ( 0.0%) 
+physics               [variable]       20561/4194304  ( 0.5%) 
 physics terrain       [variable]           2/1048576  ( 0.0%) 
 
 Level flags = 0
 
-Total triangle count: 13791
+Total triangle count: 2332
 Writing c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-10 seconds elapsed
+6 seconds elapsed
 
 
 
 materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Source SDK Base 2013 Multiplayer\customConfig\materials
 Loading C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.vmf
 Can't find surfaceprop dirt for material NATURE/GRASSFLOOR002A, using default
+Can't find surfaceprop metalvent for material METAL/METALWALL045A, using default
 Can't find surfaceprop concrete for material DEV/GRAYGRID, using default
 Can't find surfaceprop wood for material WOOD/WOODFLOOR006B, using default
-Can't find surfaceprop brick for material BRICK/BRICKWALL034A, using default
+Can't find surfaceprop glass for material STOREFRONT_TEMPLATE/STOREFRONT_TEMPLATE001D, using default
+Can't find surfaceprop brick for material BRICK/BRICKWALL003A_CONSTRUCT, using default
+Can't find surfaceprop metal for material METAL/METALLADDER001A, using default
 Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\source sdk base 2013 multiplayer\customconfig\gameinfo.txt
 fixing up env_cubemap materials on brush sides...
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (371.1 2132.0 588.0)
+Leaf 0 contents: CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 90: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (371.1 2132.0 629.9)
+Leaf 0 contents: CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 90: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (370.9 2131.9 608.9)
+Leaf 0 contents: CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_GRATE CONTENTS_TRANSLUCENT CONTENTS_LADDER 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 90: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (371.1 2132.0 102.0)
+Leaf 0 contents: CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 90: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (370.9 2131.9 105.0)
+Leaf 0 contents: CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_GRATE CONTENTS_TRANSLUCENT CONTENTS_LADDER 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 90: 
+
+Processing areas...done (0)
 Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
 FixTjuncs...
 PruneNodes...
 WriteBSP...
@@ -578,11 +625,11 @@ Finding displacement neighbors...
 Finding lightmap sample positions...
 Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
 Building Physics collision data...
-done (0) (33769 bytes)
+done (0) (20561 bytes)
 Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
 Compacting texture/material tables...
-Reduced 424 texinfos to 255
-Reduced 5 texdatas to 4 (108 bytes to 74)
+Reduced 301 texinfos to 176
+Reduced 9 texdatas to 7 (263 bytes to 170)
 Writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.bsp
 0 seconds elapsed
 
@@ -591,16 +638,16 @@ Writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.bsp
 8 threads
 reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
 reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.prt
- 339 portalclusters
- 934 numportals
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 285 visible clusters (0.32%)
-Total clusters visible: 88360
-Average clusters visible: 260
+ 356 portalclusters
+1167 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 186 visible clusters (0.17%)
+Total clusters visible: 106406
+Average clusters visible: 298
 Building PAS...
-Average clusters audible: 338
-visdatasize:31924  compressed from 32544
+Average clusters audible: 356
+visdatasize:34744  compressed from 34176
 writing c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-1 minute, 37 seconds elapsed
+9 seconds elapsed
 
 
 
@@ -608,437 +655,78 @@ Could not find lights.rad in lights.rad.
 Trying VRAD BIN directory instead...
 Warning: Couldn't open texlight file c:\program files (x86)\steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
 Loading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-3097 faces
-2380426 square feet [342781440.00 square inches]
+812 faces
+246450 square feet [35488816.00 square inches]
 0 Displacements
 0 Square Feet [0.00 Square Inches]
-3097 patches before subdivision
+812 patches before subdivision
 zero area child patch
-191665 patches after subdivision
-1 direct lights
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9..
+25854 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5643389, max 626
+transfer lists:  43.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7020, 7322, 6421)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1027, 1123, 839)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(158, 180, 120)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(24, 29, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(4, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0102 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
 
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 53/8192          636/98304    ( 0.6%) 
+brushsides             612/65536        4896/524288   ( 0.9%) 
+planes                 820/65536       16400/1310720  ( 1.3%) 
+vertexes               969/65536       11628/786432   ( 1.5%) 
+nodes                  489/65536       15648/2097152  ( 0.7%) 
+texinfos               176/12288       12672/884736   ( 1.4%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  812/65536       45472/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              200/65536       11200/3670016  ( 0.3%) 
+leaves                 491/65536       15712/2097152  ( 0.7%) 
+leaffaces             1586/65536        3172/131072   ( 2.4%) 
+leafbrushes            289/65536         578/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             4756/512000      19024/2048000  ( 0.9%) 
+edges                 2712/256000      10848/1024000  ( 1.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             92/32768         920/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1587/65536        3174/131072   ( 2.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1933772/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       34744/16777216 ( 0.2%) 
+entdata               [variable]         812/393216   ( 0.2%) 
+LDR ambient table      491/65536        1964/262144   ( 0.7%) 
+HDR ambient table      491/65536        1964/262144   ( 0.7%) 
+LDR leaf ambient      2950/65536       82600/1835008  ( 4.5%) 
+HDR leaf ambient       491/65536       13748/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]         699/0        ( 0.0%) 
+physics               [variable]       20561/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
 
-materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Source SDK Base 2013 Multiplayer\customConfig\materials
-Loading C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.vmf
-Can't find surfaceprop dirt for material NATURE/GRASSFLOOR002A, using default
-Can't find surfaceprop concrete for material DEV/GRAYGRID, using default
-Can't find surfaceprop wood for material WOOD/WOODFLOOR006B, using default
-Can't find surfaceprop brick for material BRICK/BRICKWALL034A, using default
-Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\source sdk base 2013 multiplayer\customconfig\gameinfo.txt
-fixing up env_cubemap materials on brush sides...
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
-Building Faces...done (0)
-FixTjuncs...
-PruneNodes...
-WriteBSP...
-done (0)
-writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.prt...Building visibility clusters...
-done (0)
-material "skybox/urbannightstormhdrrt" not found.
-Can't load skybox file skybox/urbannightstormhdr to build the default cubemap!
-Can't load skybox file skybox/urbannightstormhdr to build the default cubemap!
-Finding displacement neighbors...
-Finding lightmap sample positions...
-Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
-Building Physics collision data...
-done (0) (33769 bytes)
-Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
-Compacting texture/material tables...
-Reduced 424 texinfos to 255
-Reduced 5 texdatas to 4 (108 bytes to 74)
-Writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.bsp
-0 seconds elapsed
-.
+Level flags = 0
 
-
-8 threads
-reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.prt
- 339 portalclusters
- 934 numportals
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
-
-
-materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Source SDK Base 2013 Multiplayer\customConfig\materials
-Loading C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.vmf
-Can't find surfaceprop dirt for material NATURE/GRASSFLOOR002A, using default
-Can't find surfaceprop concrete for material DEV/GRAYGRID, using default
-Can't find surfaceprop wood for material WOOD/WOODFLOOR006B, using default
-Can't find surfaceprop brick for material BRICK/BRICKWALL034A, using default
-Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\source sdk base 2013 multiplayer\customconfig\gameinfo.txt
-fixing up env_cubemap materials on brush sides...
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
-Building Faces...done (0)
-FixTjuncs...
-PruneNodes...
-WriteBSP...
-done (0)
-writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.prt...Building visibility clusters...
-done (0)
-material "skybox/urbannightstormhdrrt" not found.
-Can't load skybox file skybox/urbannightstormhdr to build the default cubemap!
-Can't load skybox file skybox/urbannightstormhdr to build the default cubemap!
-Finding displacement neighbors...
-Finding lightmap sample positions...
-Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
-Building Physics collision data...
-done (0) (33769 bytes)
-Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
-Compacting texture/material tables...
-Reduced 424 texinfos to 255
-Reduced 5 texdatas to 4 (108 bytes to 74)
-Writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.bsp
-0 seconds elapsed
-
-
-
-8 threads
-reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.prt
- 339 portalclusters
- 934 numportals
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 285 visible clusters (0.32%)
-Total clusters visible: 88360
-Average clusters visible: 260
-Building PAS...
-Average clusters audible: 338
-visdatasize:31924  compressed from 32544
-writing c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-1 minute, 47 seconds elapsed
-10Optimized: 285 visible clusters (0.32%)
-Total clusters visible: 88360
-Average clusters visible: 260
-Building PAS...
-Average clusters audible: 338
-visdatasize:31924  compressed from 32544
-writing c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-1 minute, 38 seconds elapsed
-
-
-
-Could not find lights.rad in lights.rad.
-Trying VRAD BIN directory instead...
-Warning: Couldn't open texlight file c:\program files (x86)\steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
-Loading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-3097 faces
-2380426 square feet [342781440.00 square inches]
-0 Displacements
-0 Square Feet [0.00 Square Inches]
-3097 patches before subdivision
-zero area child patch
-191665 patches after subdivision
-1 direct lights
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
-
-
-materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Source SDK Base 2013 Multiplayer\customConfig\materials
-Loading C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.vmf
-Can't find surfaceprop dirt for material NATURE/GRASSFLOOR002A, using default
-Can't find surfaceprop concrete for material DEV/GRAYGRID, using default
-Can't find surfaceprop wood for material WOOD/WOODFLOOR006B, using default
-Can't find surfaceprop brick for material BRICK/BRICKWALL034A, using default
-Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\source sdk base 2013 multiplayer\customconfig\gameinfo.txt
-fixing up env_cubemap materials on brush sides...
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
-Building Faces...done (0)
-FixTjuncs...
-PruneNodes...
-WriteBSP...
-done (0)
-writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.prt...Building visibility clusters...
-done (0)
-material "skybox/urbannightstormhdrrt" not found.
-Can't load skybox file skybox/urbannightstormhdr to build the default cubemap!
-Can't load skybox file skybox/urbannightstormhdr to build the default cubemap!
-Finding displacement neighbors...
-Finding lightmap sample positions...
-Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
-Building Physics collision data...
-done (0) (33769 bytes)
-Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
-Compacting texture/material tables...
-Reduced 424 texinfos to 255
-Reduced 5 texdatas to 4 (108 bytes to 74)
-Writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.bsp
-0 seconds elapsed
-
-
-
-8 threads
-reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.prt
- 339 portalclusters
- 934 numportals
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 283 visible clusters (0.32%)
-Total clusters visible: 88358
-Average clusters visible: 260
-Building PAS...
-Average clusters audible: 338
-visdatasize:31924  compressed from 32544
-writing c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-1 minute, 37 seconds elapsed
-
-
-
-Could not find lights.rad in lights.rad.
-Trying VRAD BIN directory instead...
-Warning: Couldn't open texlight file c:\program files (x86)\steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
-Loading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-3097 faces
-2380426 square feet [342781440.00 square inches]
-0 Displacements
-0 Square Feet [0.00 Square Inches]
-3097 patches before subdivision
-zero area child patch
-191665 patches after subdivision
-1 direct lights
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
-
-
-materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Source SDK Base 2013 Multiplayer\customConfig\materials
-Loading C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.vmf
-Can't find surfaceprop dirt for material NATURE/GRASSFLOOR002A, using default
-Can't find surfaceprop concrete for material DEV/GRAYGRID, using default
-Can't find surfaceprop wood for material WOOD/WOODFLOOR006B, using default
-Can't find surfaceprop brick for material BRICK/BRICKWALL034A, using default
-Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\source sdk base 2013 multiplayer\customconfig\gameinfo.txt
-fixing up env_cubemap materials on brush sides...
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
-Building Faces...done (0)
-FixTjuncs...
-PruneNodes...
-WriteBSP...
-done (0)
-writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.prt...Building visibility clusters...
-done (0)
-material "skybox/urbannightstormhdrrt" not found.
-Can't load skybox file skybox/urbannightstormhdr to build the default cubemap!
-Can't load skybox file skybox/urbannightstormhdr to build the default cubemap!
-Finding displacement neighbors...
-Finding lightmap sample positions...
-Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
-Building Physics collision data...
-done (0) (33769 bytes)
-Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
-Compacting texture/material tables...
-Reduced 424 texinfos to 255
-Reduced 5 texdatas to 4 (108 bytes to 74)
-Writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.bsp
-0 seconds elapsed
-
-
-
-8 threads
-reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.prt
- 339 portalclusters
- 934 numportals
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 285 visible clusters (0.32%)
-Total clusters visible: 88360
-Average clusters visible: 260
-Building PAS...
-Average clusters audible: 338
-visdatasize:31924  compressed from 32544
-writing c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-1 minute, 37 seconds elapsed
-
-
-
-Could not find lights.rad in lights.rad.
-Trying VRAD BIN directory instead...
-Warning: Couldn't open texlight file c:\program files (x86)\steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
-Loading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-3097 faces
-2380426 square feet [342781440.00 square inches]
-0 Displacements
-0 Square Feet [0.00 Square Inches]
-3097 patches before subdivision
-zero area child patch
-191665 patches after subdivision
-1 direct lights
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
-
-
-materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Source SDK Base 2013 Multiplayer\customConfig\materials
-Loading C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.vmf
-Can't find surfaceprop dirt for material NATURE/GRASSFLOOR002A, using default
-Can't find surfaceprop concrete for material DEV/GRAYGRID, using default
-Can't find surfaceprop wood for material WOOD/WOODFLOOR006B, using default
-Can't find surfaceprop brick for material BRICK/BRICKWALL034A, using default
-Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\source sdk base 2013 multiplayer\customconfig\gameinfo.txt
-fixing up env_cubemap materials on brush sides...
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
-Building Faces...done (0)
-FixTjuncs...
-PruneNodes...
-WriteBSP...
-done (0)
-writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.prt...Building visibility clusters...
-done (0)
-material "skybox/urbannightstormhdrrt" not found.
-Can't load skybox file skybox/urbannightstormhdr to build the default cubemap!
-Can't load skybox file skybox/urbannightstormhdr to build the default cubemap!
-Finding displacement neighbors...
-Finding lightmap sample positions...
-Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
-Building Physics collision data...
-done (0) (33769 bytes)
-Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
-Compacting texture/material tables...
-Reduced 424 texinfos to 255
-Reduced 5 texdatas to 4 (108 bytes to 74)
-Writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.bsp
-0 seconds elapsed
-
-
-
-8 threads
-reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.prt
- 339 portalclusters
- 934 numportals
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 285 visible clusters (0.32%)
-Total clusters visible: 88360
-Average clusters visible: 260
-Building PAS...
-Average clusters audible: 338
-visdatasize:31924  compressed from 32544
-writing c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-1 minute, 38 seconds elapsed
-
-
-
-Could not find lights.rad in lights.rad.
-Trying VRAD BIN directory instead...
-Warning: Couldn't open texlight file c:\program files (x86)\steam\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
-Loading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-3097 faces
-2380426 square feet [342781440.00 square inches]
-0 Displacements
-0 Square Feet [0.00 Square Inches]
-3097 patches before subdivision
-zero area child patch
-191665 patches after subdivision
-1 direct lights
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
-
-
-materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Counter-Strike Source\cstrike\materials
-Loading C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.vmf
-Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
-fixing up env_cubemap materials on brush sides...
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
-Building Faces...done (0)
-FixTjuncs...
-PruneNodes...
-WriteBSP...
-done (0)
-writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.prt...Building visibility clusters...
-done (0)
-material "skybox/urbannightstormhdrrt" not found.
-Can't load skybox file skybox/urbannightstormhdr to build the default cubemap!
-Can't load skybox file skybox/urbannightstormhdr to build the default cubemap!
-Finding displacement neighbors...
-Finding lightmap sample positions...
-Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
-Building Physics collision data...
-done (0) (33804 bytes)
-Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
-Compacting texture/material tables...
-Reduced 409 texinfos to 255
-Reduced 4 texdatas to 4 (74 bytes to 74)
-Writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.bsp
-0 seconds elapsed
-
-
-
-8 threads
-reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.prt
- 339 portalclusters
- 933 numportals
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 283 visible clusters (0.32%)
-Total clusters visible: 88366
-Average clusters visible: 260
-Building PAS...
-Average clusters audible: 338
-visdatasize:31924  compressed from 32544
-writing c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-1 minute, 38 seconds elapsed
-
-
-
-[Reading texlights from 'lights.rad']
-[2 texlights parsed from 'lights.rad']
-
-Loading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-3097 faces
-2380426 square feet [342781440.00 square inches]
-0 Displacements
-0 Square Feet [0.00 Square Inches]
-3097 patches before subdivision
-zero area child patch
-191665 patches after subdivision
-1 direct lights
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
-
-
-materialPath: C:\Program Files (x86)\Steam\SteamApps\common\Counter-Strike Source\cstrike\materials
-Loading C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.vmf
-Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
-fixing up env_cubemap materials on brush sides...
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
-Building Faces...done (0)
-FixTjuncs...
-PruneNodes...
-WriteBSP...
-done (0)
-writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.prt...Building visibility clusters...
-done (0)
-material "skybox/urbannightstormhdrrt" not found.
-Can't load skybox file skybox/urbannightstormhdr to build the default cubemap!
-Can't load skybox file skybox/urbannightstormhdr to build the default cubemap!
-Finding displacement neighbors...
-Finding lightmap sample positions...
-Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
-Building Physics collision data...
-done (0) (33820 bytes)
-Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
-Compacting texture/material tables...
-Reduced 412 texinfos to 255
-Reduced 5 texdatas to 5 (94 bytes to 94)
-Writing C:\Users\Jackson\Documents\GitHub\Custom-GMod-Map\VMF\Map.bsp
-0 seconds elapsed
-
-
-
-8 threads
-reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-reading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.prt
- 339 portalclusters
- 932 numportals
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 284 visible clusters (0.32%)
-Total clusters visible: 88375
-Average clusters visible: 260
-Building PAS...
-Average clusters audible: 338
-visdatasize:31924  compressed from 32544
-writing c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-1 minute, 51 seconds elapsed
-
-
-
-[Reading texlights from 'lights.rad']
-[2 texlights parsed from 'lights.rad']
-
-Loading c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
-3098 faces
-2380426 square feet [342781440.00 square inches]
-0 Displacements
-0 Square Feet [0.00 Square Inches]
-3098 patches before subdivision
-zero area child patch
-191664 patches after subdivision
-1 direct lights
-0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
+Total triangle count: 2332
+Writing c:\users\jackson\documents\github\custom-gmod-map\vmf\Map.bsp
+6 seconds elapsed
